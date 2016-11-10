@@ -102,7 +102,7 @@ public class DeDup {
 	/* method 2: using Sort and then remove duplicates
 	 * This is a better solution if the use case doesn't care about maintaining the Order
 	 * The Arrays Collection utility was used here to perform the sort, but if the use case defines the input to be of a fixed range then radix sort would work best
-	 * time complexity O(n log n + n) to  and space complexity O(n)
+	 * time complexity O(n log n + n) and space complexity O(n)
 	 */
 	private int[] deDupSortAndDeDup(int[] input)
 	{

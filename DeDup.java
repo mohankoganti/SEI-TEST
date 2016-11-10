@@ -45,7 +45,7 @@ public class DeDup {
 		deDup1.printArray(uniqueArray);
 		System.out.println("Execution Time: "+(afterTime - beforeTime));
 		
-		//method 2: using LinkedHashSet (Use HashSet if order maintenance is not required as that is more efficient)
+		//method 2: using Sort first and remove duplicates
 		DeDup deDup2 = new DeDup();
 		beforeTime = System.currentTimeMillis();
 		uniqueArray = deDup2.deDupSortAndDeDup(deDup2.randomIntegers);
